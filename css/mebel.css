@@ -1,0 +1,354 @@
+body{
+    margin: auto;
+    width: 1400px;
+    height: 3770px;
+    /* margin-top: 100px;
+    border: 1px solid black; */
+    background: #ffffff;
+}
+header{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+}
+.header_box1{
+    width: 1400px;
+    height: 38px;
+    background: #313131;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headBox1_cont{
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head_box1_left li a:hover{
+    color: red;
+}
+.head_box1_left   ul{
+    display: flex;
+    list-style: none;
+    width: 251px;
+    justify-content: space-around;
+}
+.head_box1_left li a{
+    text-decoration: none;
+
+    color: white;
+}
+
+
+
+.header_box2{
+    width: 1138.87px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.head_box2_input{
+    margin-left: 20px;
+}
+
+.head_box2_das{
+    display: none;
+    align-items: center;
+    width: 150px;
+    justify-content: space-around;
+    top :53px;
+    left :507px;
+  
+}
+
+
+.optic:hover{
+    opacity: 0.5;
+}
+
+input{
+    width: 839px;
+    height: 50px;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 24px;
+}
+.header_box3{
+    width: 1140px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+   
+}
+section{
+    width: 1140px;
+    height: 450px;
+    margin: -475px 135px;
+}
+.section_loft_mebel{
+    position: absolute;
+    margin: 100px 130px;
+    z-index: 5;
+}
+.loft_mebile{
+    width: 216px;
+    height: 106px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 105.3%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+.loft_mebile1{
+    width: 280px;
+    height: 23px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140.8%;
+    letter-spacing: 0.02em;
+    margin-top: 15px;
+    color: #343434;
+}
+button{
+    width: 163px;
+    height: 45px;
+    font-size: 12px;
+    margin-top: 55px;
+}
+.korz_dobav{
+    background-color: #245462;
+    color: #ffffff;
+}
+.korz_dobav:hover{
+    background-color:#ffffff; 
+    color: #245462;
+    border: 0.2px solid black;
+}
+.buton_davad_open{
+    width: 88px;
+    height: 28px;
+    font-size: 12px;
+    background-color: rgba(122, 82, 29, 0.842);
+    color: #ffffff;
+    border: none;
+    margin: 11.5px 18px;
+
+}
+button:hover{
+    background-color: #245462;
+    border: none;
+    color: #ffffff;
+}
+.sec_img{
+    margin: 517px -17px;
+}
+.losc_button{
+    position: absolute;
+    width: 70px;
+    color: #ffff;
+    background-color: rgb(31, 31, 48);
+    font-size: 34px;
+    margin: 185px -33px;
+}
+.losc_button2{
+    position: absolute;
+    width: 70px;
+    color: #ffff;
+    background-color: rgb(31, 31, 48);
+    font-size: 34px;
+    margin: -320px 1159px;
+}
+aside{
+    width: 1140px;
+    height: 2812px;
+    margin: 530px 156px;
+    
+}
+.aside_play_box{
+    display: flex;
+    
+}
+.aside_box{
+    width: 263px;
+    height: 344px;
+    margin-left: 26px;
+    
+}
+.aside_box_name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 20px;
+}
+.aside_box_name_st{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    margin: 6px 20px;
+}
+.aside_box_name_st_sena{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 9px 20px;
+}
+#demo{
+    position: absolute;
+    margin-left: 17px;
+    background-color: #ffffff;
+    display: none;
+    z-index: 10;
+}
+footer{
+    margin: -470px -2px;
+    width: 1400px;
+    height: 140px;
+    
+}
+.naviga_foter{
+    width: 83px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 126.69%;
+}
+.blue_hovr a{
+    text-decoration: none;
+    width: 1px;
+    height: 1px;
+    color: black;
+    margin: 1px 1px ;
+
+}
+.blue_hovr a:hover{
+    color: rgb(59, 59, 245);
+}
+.red_hovr a{
+    text-decoration: none;
+    width: 1px;
+    height: 1px;
+    color: black;
+    margin: 1px 1px ;
+}
+.red_hovr a:hover{
+    color: red;
+}
+td{   
+    width: 130px;
+    text-align: inherit;
+}
+th{
+    width: 130px;
+    text-align: inherit;
+}
+table{
+    margin-top: 15px;
+}
+.footer_box1{
+    margin-left: 145px;
+}
+.anna_w{
+    width: 171px;
+    height: 54px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 126.69%;
+    text-align: right;
+    position: absolute;
+    margin: 60px 590px;
+}
+.ins_tel{
+    width: 481px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 126.69%;
+    text-align: right;
+    color: #414141;
+    position: absolute;
+    margin: 125px 285px;
+}
+.snt_mer{
+   margin-left: 40px;
+}
+.LM{
+    position: absolute;
+    margin: 15px 700px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For Table phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  body{
+    width: 768px;
+}
+.header_box1{
+    display: none;
+}
+.header_box2{
+   width: 768px;
+}
+.header-box2-a2 {
+    width: 243px;
+    height: 40px;
+}
+.head_box2_input{
+   width: 243px;
+}
+.head_box2_poisk{
+   width: 112,96px;
+}
+.head_box2_das{
+   display: flex;
+}
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
